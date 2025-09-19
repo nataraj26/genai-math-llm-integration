@@ -100,5 +100,6 @@ if __name__ == "__main__":
 
 
 ## RESULT:
-Hence,the python program to design and implement a Python function for converting miles to km,
+Hence,the python program to design and implement a Python function for converting area of a circle,
+For radius = 7, the area of the circle is 153.94 (approx).
 integrating it with a chat completion system utilizing the function-calling feature of a large language model (LLM) is written successfully and executed.
