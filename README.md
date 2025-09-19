@@ -1,19 +1,37 @@
 ## Integration of a Mathematical Calulations with a Chat Completion System using LLM Function-Calling
 
 ### AIM:
-To design and implement a Python function for coverting miles to kilometer, integrate it with a chat completion system utilizing the function-calling feature of a large language model (LLM).
+To calculate the area of a circle using the formula:
+
+<img width="332" height="122" alt="image" src="https://github.com/user-attachments/assets/b8dc1330-4055-4e35-96ed-d2d53a48c1b2" />
+
+where r is the radius of the circle, and also show the step-by-step calculation.
 
 ### PROBLEM STATEMENT:
-You need to create a Python program that can intelligently convert miles to kilometers by leveraging OpenAI's function calling capability.
+Write a Python program to calculate the area of a circle using the formula 
+The program should take radius as input and display the result with steps.
 ### DESIGN STEPS:
 
-#### STEP 1:
-Install required packages
-#### STEP 2:
-Give the essential function calling code into it
-#### STEP 3:
-Integrate the function into an LLM-based chat completion system with function-calling capabilities.
+1)Start the program.
+2)Import required modules:
+   *math → for π (pi).
+   *json → to format the output in JSON.
 
+3)Define a function find_area_of_circle(radius) that:
+a. Computes the area using the formula π × r².
+b. Creates a dictionary containing:
+
+Shape type ("circle").
+
+4)Step-by-step explanation of the calculation.
+c. Converts the dictionary into JSON format with indentation.
+d. Returns the JSON string.
+
+Call the function with radius = 7.
+
+5)Print the result.
+
+6)End the program.
 ### PROGRAM:
 ```python
 from dotenv import load_dotenv
